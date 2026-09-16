@@ -27,12 +27,13 @@ window.__ModuleLoader__.load({ id: 'dsh-hero-headline', factory: (require) => {
   // 彩虹渐变：按需改色标/角度。
   var ART_GRADIENT = ''
   // 字体栈：优先楷体/圆体等“艺术”感字体，缺失则优雅回退到系统字体。
-  var ART_FONT_FAMILY = "'Kaiti SC','KaiTi','STKaiti','楷体','LXGW WenKai','YouYuan','幼圆','PingFang SC','Microsoft YaHei',sans-serif"
-  var ART_FONT_WEIGHT = 'bold'
-  var ART_LETTER_SPACING = '2px'
-  var ART_STROKE = '0.8px rgba(255,255,255,0.75)' // 白描边（艺术字轮廓）
-  var ART_GLOW = '0 2px 16px rgba(0,0,0,0.35)'     // 投影/光晕
-  var ART_BG_SIZE = '100% 100%'                    // 想流动彩虹可改 '200% 100%'
+  var ART_GRADIENT = ''
+  var ART_FONT_FAMILY = "inherit" // 或者系统默认字体
+  var ART_FONT_WEIGHT = 'normal'
+  var ART_LETTER_SPACING = 'normal'
+  var ART_STROKE = 'none'
+  var ART_GLOW = 'none'
+  var ART_BG_SIZE = '100% 100%'
 
   // --- 鱼图标颜色：DS 官方小鲸鱼蓝（theme 的 --dsw-static-deepseek-500）---
   var FISH_COLOR = '#4176E6'
