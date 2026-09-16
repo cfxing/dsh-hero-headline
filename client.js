@@ -23,12 +23,9 @@ window.__ModuleLoader__.load({ id: 'dsh-hero-headline', factory: (require) => {
   // to customize the text (e.g. your own quote / brand line).
   var NEW_HEADLINE = '智能桌面助手'
 
-  // --- 艺术字 + 彩虹渐变样式（想调效果就改这些常量）---
-  // 彩虹渐变：按需改色标/角度。
-  var ART_GRADIENT = ''
+  var ART_GRADIENT = 'linear-gradient(90deg, #333333, #333333)' // 深灰色文字，适合白色背景
   // 字体栈：优先楷体/圆体等“艺术”感字体，缺失则优雅回退到系统字体。
-  var ART_GRADIENT = ''
-  var ART_FONT_FAMILY = "inherit" // 或者系统默认字体
+  var ART_FONT_FAMILY = "'Kaiti SC','KaiTi','STKaiti','楷体','LXGW WenKai','YouYuan','幼圆','PingFang SC','Microsoft YaHei',sans-serif"
   var ART_FONT_WEIGHT = 'normal'
   var ART_LETTER_SPACING = 'normal'
   var ART_STROKE = 'none'
